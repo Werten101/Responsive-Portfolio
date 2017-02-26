@@ -244,3 +244,81 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (min-width: 769px) (max-width: 980px) {
+  .container {
+    width: 66.66%;
+  }
+  #main-container {
+    width: 40%;
+    float: left;
+    position: absolute;
+    left: 16.5%;
+  }
+  .auth-image {
+    width: 330px;
+    height: auto;
+  }
+  .sidebar {
+    position: absolute;
+    top: 130px;
+    right: -320px;
+  }
+  nav {
+    position: absolute;
+    right: 120px;
+  }
+  #index-footer {
+    width: 100%;
+    position: absolute;
+    bottom: -180px;
+  }
+  #contact-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  #portfolio-footer {
+    width: 100%;
+    position: absolute;
+    bottom: -830px;
+  }
+}
+
+@media only screen and (min-width: 641px) (max-width: 768px) {
+  .container {
+    width: 85%;
+    position: relative;
+  }
+
+  .auth-image {
+    width: 250px;
+    height: auto;
+  }
+
+  .sidebar {
+    max-width: none;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .container {
+    width: 95%;
+    position: relative;
+  }
+  .auth-image {
+    width: 545px;
+    height: auto;
+  }
+  .sidebar {
+    float: left;
+    max-width: none;
+    width: 100%;
+  }
+  .work {
+    width: 545px;
+    height: auto;
+  }
+}
